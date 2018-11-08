@@ -1,0 +1,23 @@
+example: 
+  info: 
+    app:
+      active: test
+      base-package: com.example
+      name: "@project.name@" 
+      groupId: "@project.groupId@"
+      artifactId: "@project.artifactId@"
+      version: "@project.version@"
+      api-version: 1.0
+      desciprion: Example
+      terms-service-url: http://example.com
+      license: Apache 2.0
+      license-url: https://www.apache.org/licenses/LICENSE-2.0
+      contact:
+        name: Example Swagger2
+        url: http://example.com
+        email: example@example.com
+
+logging:
+  level: 
+    org.springframework: WARN
+    com.example: DEBUG      
